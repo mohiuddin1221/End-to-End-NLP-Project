@@ -33,7 +33,7 @@ def run_pipleline():
     
 
 if __name__ == "__main__":
-    run_pipeline()
+    run_pipleline()
 
 
 

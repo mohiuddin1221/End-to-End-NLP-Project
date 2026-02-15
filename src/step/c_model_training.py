@@ -85,10 +85,6 @@ def model_traning(data):
     print(confusion_matrix(y_test, y_pred))
     print(classification_report(y_test, y_pred))
 
-    model_path = os.path.join("models", "fake_news_full_pipeline.pkl")
-
-    joblib.dump(pipeline, model_path)
-    print(f"Model saved successfully at: {model_path}")
 
     folder_name = "models"
 
